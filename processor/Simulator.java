@@ -1,6 +1,8 @@
 package processor;
 
 import dto.*;
+import exceptions.BadInputException;
+import validation.Cycle;
 
 import java.util.*;
 
@@ -15,6 +17,23 @@ public class Simulator {
         this.snakeAndLadderBoard = new Board(boardSize);
         this.players = new LinkedList<>();
         this.diceProcessor = new Dice(dices, strategy);
+
+    }
+
+    public void validateBoard() throws BadInputException {
+        Cycle cycleValidator = new Cycle(this.snakeAndLadderBoard.getSize());
+        for(Snake snake : this.snakeAndLadderBoard.getSnakes()) {
+            cycleValidator.addSnakeLadderOrCrocs(snake.getStart(), snake.getEnd());
+        }
+        for(Ladder ladder : this.snakeAndLadderBoard.getLadders()) {
+            cycleValidator.addSnakeLadderOrCrocs(ladder.getStart(), ladder.getEnd());
+        }
+        for(Crocodile crocodile : this.snakeAndLadderBoard.getCrocodiles()) {
+            cycleValidator.addSnakeLadderOrCrocs(crocodile.getPos(), crocodile.getPos() - BACK_POS);
+        }
+        if (cycleValidator.hasCycle()) {
+            throw new BadInputException("board elements create a cycle");
+        }
     }
 
     public void setPlayers(List<Player> players) {

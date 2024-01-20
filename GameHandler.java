@@ -58,6 +58,7 @@ public class GameHandler {
         gameSimulatorObj.setSnakes(snakes);
         gameSimulatorObj.setLadders(ladders);
         gameSimulatorObj.setCrocodiles(crocodiles);
+        gameSimulatorObj.validateBoard();
 
         // simulate
         gameSimulatorObj.startGame();
