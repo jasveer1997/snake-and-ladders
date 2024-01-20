@@ -1,7 +1,4 @@
-import dto.Ladder;
-import dto.Player;
-import dto.Snake;
-import dto.Strategy;
+import dto.*;
 import helper.Parser;
 import processor.Simulator;
 
@@ -23,6 +20,7 @@ public class GameHandler {
         int boardSize = parseInt(config.get("board_size"));
         int numSnakes = parseInt(config.get("num_snakes"));
         int numLadders = parseInt(config.get("num_ladders"));
+        int numCrocodiles = parseInt(config.get("num_crocodiles"));
         int numDices = parseInt(config.get("num_dices"));
         Strategy strategy = Strategy.valueOf(config.get("movement_strategy"));
 
@@ -30,7 +28,7 @@ public class GameHandler {
         System.out.println("Input snakes, in format x y for below " + numSnakes + " lines -> x denotes head, y denotes tail!");
         List<Snake> snakes = new ArrayList<>();
         for (int i = 0; i < numSnakes; i++) {
-            snakes.add(new Snake(scanner.nextInt(), scanner.nextInt()));
+            snakes.add(new Snake(boardSize, scanner.nextInt(), scanner.nextInt()));
         }
 
         System.out.println("Input ladders, in format x y for below " + numLadders + " lines -> x denotes start, y denotes end!");
@@ -39,6 +37,14 @@ public class GameHandler {
             ladders.add(new Ladder(boardSize, scanner.nextInt(), scanner.nextInt()));
         }
         // Todo: Make sure we are not creating cycle with snakes & ladders
+
+        List<Crocodile> crocodiles = new ArrayList<>();
+        if (numCrocodiles > 0) {
+            System.out.println("Input crocodiles, in format `x` for below " + numCrocodiles + " lines -> x denotes position!");
+            for (int i = 0; i < numCrocodiles; i++) {
+                crocodiles.add(new Crocodile(boardSize, scanner.nextInt()));
+            }
+        }
 
         System.out.println("Input players, in format x y for below " + numPlayers + " lines -> x denotes name, y denotes start position!");
         List<Player> players = new ArrayList<>();
@@ -51,6 +57,7 @@ public class GameHandler {
         gameSimulatorObj.setPlayers(players);
         gameSimulatorObj.setSnakes(snakes);
         gameSimulatorObj.setLadders(ladders);
+        gameSimulatorObj.setCrocodiles(crocodiles);
 
         // simulate
         gameSimulatorObj.startGame();

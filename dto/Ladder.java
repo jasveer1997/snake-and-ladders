@@ -9,12 +9,15 @@ public class Ladder {
 
     public Ladder(int bSize, int start, int end) throws BadInputException {
         this.bSize = bSize;
-        this.validateLadder(start, end);
         this.start = start;
         this.end = end;
+        this.validateLadder(start, end);
     }
 
     private void validateLadder(int start, int end) throws BadInputException {
+        if (start <= 0 || start > this.bSize*this.bSize || end <= 0 || end > this.bSize*this.bSize) {
+            throw new BadInputException("ladder start/end should be inside board posn");
+        }
         int startRow = (start - 1)/this.bSize;
         int endRow = (end - 1)/this.bSize;
         if (startRow >= endRow) {

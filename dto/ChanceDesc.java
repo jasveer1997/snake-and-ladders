@@ -29,7 +29,7 @@ public class ChanceDesc {
                 System.out.println("Due to rolled position advance to " + this.start + ", " + playerName + " got bitten by snake at " + this.start + " and moved from " + this.start + " to " + this.end);
                 break;
             case CROCODILE:
-                System.out.println(playerName + " rolled a " + rolledValue + " and encounters a crocodile at " + this.start + " and moved from " + this.start + " to " + this.end);
+                System.out.println("Due to rolled position advance to " + this.start + ", " + playerName + " got crocodile at " + this.start + " and moved from " + this.start + " to " + this.end);
                 break;
             case MINE:
                 System.out.println(playerName + " rolled a " + rolledValue + " and encounters a crocodile at " + this.start + " and moved from " + this.start + " to " + this.end);

@@ -4,6 +4,8 @@ import dto.*;
 
 import java.util.*;
 
+import static dto.Crocodile.BACK_POS;
+
 public class Simulator {
     private final Board snakeAndLadderBoard;
     private Queue<Player> players; // in case > 2 players
@@ -29,6 +31,10 @@ public class Simulator {
         snakeAndLadderBoard.setSnakes(snakes);
     }
 
+    public void setCrocodiles(List<Crocodile> crocodiles) {
+        snakeAndLadderBoard.setCrocodiles(crocodiles);
+    }
+
     public void setLadders(List<Ladder> ladders) {
         snakeAndLadderBoard.setLadders(ladders);
     }
@@ -51,7 +57,14 @@ public class Simulator {
                     moves.add(new ChanceDesc(previousPosition, newPosition, ChanceDesc.SpecialObjects.LADDER));
                 }
             }
-            // Todo: Add crocodiles, mines
+
+            for (Crocodile crocodile : snakeAndLadderBoard.getCrocodiles()) {
+                if (crocodile.getPos() == newPosition) {
+                    newPosition = newPosition - BACK_POS; // This 5 can change later (from config)
+                    moves.add(new ChanceDesc(previousPosition, newPosition > 0 ? newPosition : 1, ChanceDesc.SpecialObjects.CROCODILE));
+                }
+            }
+            // Todo: Add mines later!
         } while (newPosition != previousPosition);
     }
 

@@ -3,6 +3,7 @@
   "board_size": 10,
   "num_snakes": 9,
   "num_ladders": 8,
+  "num_crocodiles": 2,
   "num_dices": 1,
   "movement_strategy": "SUM"
 }
