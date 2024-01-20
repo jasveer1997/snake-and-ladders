@@ -87,7 +87,7 @@ public class Simulator {
         } while (newPosition != previousPosition);
     }
 
-    private void movePlayer(Player player, int positions) {
+    public void movePlayer(Player player, int positions) {
         int oldPosition = snakeAndLadderBoard.getPlayerPieces().get(player.getId()).getPos();
         int newPosition = oldPosition + positions;
 
