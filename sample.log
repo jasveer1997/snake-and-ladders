@@ -1,0 +1,683 @@
+Input snakes, in format x y for below 9 lines -> x denotes head, y denotes tail!
+62 5
+33 6
+49 9
+88 16
+41 20
+56 53
+98 64
+93 73
+95 75
+Input ladders, in format x y for below 8 lines -> x denotes start, y denotes end!
+2 37
+27 46
+10 32
+51 68
+61 79
+65 84
+71 91
+81 100
+Input players, in format x y for below 3 lines -> x denotes name, y denotes start position!
+Gaurav 1
+Sagar 1
+Jasveer 10
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 1 to 6
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 1 to 3
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 10 to 11
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 6 to 10
+Due to rolled position advance to 10, Gaurav climbed the ladder at 10 and moved from 10 to 32
+--
+Sagar rolled a total of (including consecutive sixes) 5 and moved from 3 to 8
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 10 and moved from 11 to 21
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Gaurav rolled a total of (including consecutive sixes) 16 and moved from 32 to 48
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 8 to 9
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 21 to 26
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 48 to 53
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 9 to 10
+Due to rolled position advance to 10, Sagar climbed the ladder at 10 and moved from 10 to 32
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 26 to 31
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 53 to 54
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 32 to 33
+Due to rolled position advance to 33, Sagar got bitten by snake at 33 and moved from 33 to 6
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 31 to 34
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 54 to 57
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 6 to 9
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 34 to 36
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 57 to 60
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 9 to 11
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 36 to 37
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 60 to 62
+Due to rolled position advance to 62, Gaurav got bitten by snake at 62 and moved from 62 to 5
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 11 to 15
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 37 to 41
+Due to rolled position advance to 41, Jasveer got bitten by snake at 41 and moved from 41 to 20
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 5 to 6
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 15 to 19
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 20 to 25
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 6 to 11
+--
+Sagar rolled a total of (including consecutive sixes) 5 and moved from 19 to 24
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 25 to 29
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 11 to 16
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 24 to 25
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 7 and moved from 29 to 36
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 16 to 19
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 25 to 26
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 36 to 40
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 19 to 21
+--
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Sagar rolled a total of (including consecutive sixes) 10 and moved from 26 to 36
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 40 to 42
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 21 to 24
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 36 to 37
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 7 and moved from 42 to 49
+Due to rolled position advance to 49, Jasveer got bitten by snake at 49 and moved from 49 to 9
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 24 to 25
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 37 to 40
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 9 to 12
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 25 to 26
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 40 to 44
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 12 to 15
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 26 to 31
+--
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 3
+Three consecutive sixes, all canceled, now returning a final value of new roll, whatever it will be
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 44 to 45
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 15 to 19
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 9 and moved from 31 to 40
+--
+Sagar rolled a total of (including consecutive sixes) 5 and moved from 45 to 50
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 19 to 20
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 40 to 43
+--
+Sagar rolled a total of (including consecutive sixes) 5 and moved from 50 to 55
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 20 to 25
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 43 to 48
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 55 to 58
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 25 to 29
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 48 to 51
+Due to rolled position advance to 51, Gaurav climbed the ladder at 51 and moved from 51 to 68
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 58 to 62
+Due to rolled position advance to 62, Sagar got bitten by snake at 62 and moved from 62 to 5
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 29 to 33
+Due to rolled position advance to 33, Jasveer got bitten by snake at 33 and moved from 33 to 6
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 68 to 73
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 5 to 7
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 6 to 7
+Jasveer reached at 7, where Sagar is already was present, so resetting Sagar back to initial position!
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 73 to 77
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 1 to 2
+Due to rolled position advance to 2, Sagar climbed the ladder at 2 and moved from 2 to 37
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 7 to 10
+Due to rolled position advance to 10, Jasveer climbed the ladder at 10 and moved from 10 to 32
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 77 to 80
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 37 to 41
+Due to rolled position advance to 41, Sagar got bitten by snake at 41 and moved from 41 to 20
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 10 and moved from 32 to 42
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 80 to 82
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 20 to 24
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 42 to 44
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 82 to 84
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 24 to 26
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 44 to 48
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 84 to 87
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 26 to 29
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 48 to 51
+Due to rolled position advance to 51, Jasveer climbed the ladder at 51 and moved from 51 to 68
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 3
+Three consecutive sixes, all canceled, now returning a final value of new roll, whatever it will be
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 87 to 89
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 29 to 33
+Due to rolled position advance to 33, Sagar got bitten by snake at 33 and moved from 33 to 6
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 68 to 69
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 89 to 90
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 6 to 8
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 11 and moved from 69 to 80
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 90 to 92
+--
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Sagar rolled a total of (including consecutive sixes) 17 and moved from 8 to 25
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 80 to 85
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 92 to 93
+Due to rolled position advance to 93, Gaurav got bitten by snake at 93 and moved from 93 to 73
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 25 to 26
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 8 and moved from 85 to 93
+Due to rolled position advance to 93, Jasveer got bitten by snake at 93 and moved from 93 to 73
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 73 to 74
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 26 to 30
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 10 and moved from 73 to 83
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 74 to 79
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 30 to 34
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 83 to 88
+Due to rolled position advance to 88, Jasveer got bitten by snake at 88 and moved from 88 to 16
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 79 to 84
+--
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Sagar rolled a total of (including consecutive sixes) 8 and moved from 34 to 42
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 16 to 21
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 84 to 88
+Due to rolled position advance to 88, Gaurav got bitten by snake at 88 and moved from 88 to 16
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 42 to 46
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 21 to 22
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 16 to 20
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 46 to 50
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 22 to 25
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 20 to 24
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 50 to 51
+Due to rolled position advance to 51, Sagar climbed the ladder at 51 and moved from 51 to 68
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 9 and moved from 25 to 34
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 24 to 28
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 68 to 71
+Due to rolled position advance to 71, Sagar climbed the ladder at 71 and moved from 71 to 91
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 34 to 38
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 28 to 33
+Due to rolled position advance to 33, Gaurav got bitten by snake at 33 and moved from 33 to 6
+--
+Sagar rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Sagar rolled a 11, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 10 and moved from 38 to 48
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 6 to 7
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 91 to 94
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 48 to 52
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 9 and moved from 7 to 16
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 94 to 95
+Due to rolled position advance to 95, Sagar got bitten by snake at 95 and moved from 95 to 75
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 52 to 54
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Gaurav rolled a total of (including consecutive sixes) 17 and moved from 16 to 33
+Due to rolled position advance to 33, Gaurav got bitten by snake at 33 and moved from 33 to 6
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 75 to 77
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 54 to 55
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 6 to 11
+--
+Sagar rolled a total of (including consecutive sixes) 5 and moved from 77 to 82
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 55 to 56
+Due to rolled position advance to 56, Jasveer got bitten by snake at 56 and moved from 56 to 53
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 11 to 13
+--
+Sagar rolled a total of (including consecutive sixes) 5 and moved from 82 to 87
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 11 and moved from 53 to 64
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 13 to 18
+--
+Sagar rolled a total of (including consecutive sixes) 3 and moved from 87 to 90
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 64 to 65
+Due to rolled position advance to 65, Jasveer climbed the ladder at 65 and moved from 65 to 84
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 7 and moved from 18 to 25
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 90 to 92
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 84 to 85
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 7 and moved from 25 to 32
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 92 to 93
+Due to rolled position advance to 93, Sagar got bitten by snake at 93 and moved from 93 to 73
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 85 to 86
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 32 to 37
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 73 to 74
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 86 to 88
+Due to rolled position advance to 88, Jasveer got bitten by snake at 88 and moved from 88 to 16
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Gaurav rolled a total of (including consecutive sixes) 16 and moved from 37 to 53
+--
+Sagar rolled a total of (including consecutive sixes) 2 and moved from 74 to 76
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Jasveer rolled a total of (including consecutive sixes) 14 and moved from 16 to 30
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 53 to 58
+--
+Sagar rolled a total of (including consecutive sixes) 4 and moved from 76 to 80
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 30 to 35
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 58 to 62
+Due to rolled position advance to 62, Gaurav got bitten by snake at 62 and moved from 62 to 5
+--
+Sagar rolled a total of (including consecutive sixes) 1 and moved from 80 to 81
+Due to rolled position advance to 81, Sagar climbed the ladder at 81 and moved from 81 to 100
+--
+Sagar wins the game
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 35 to 37
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 5 to 10
+Due to rolled position advance to 10, Gaurav climbed the ladder at 10 and moved from 10 to 32
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 37 to 40
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 32 to 35
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 40 to 43
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 11 and moved from 35 to 46
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 43 to 45
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 46 to 50
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 45 to 48
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 50 to 54
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 48 to 49
+Due to rolled position advance to 49, Jasveer got bitten by snake at 49 and moved from 49 to 9
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 54 to 57
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 9 to 12
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 57 to 58
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 12 to 14
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 58 to 59
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 14 to 16
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 9 and moved from 59 to 68
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 16 to 18
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 68 to 73
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 18 to 20
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 73 to 78
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 20 to 21
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 78 to 80
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 21 to 22
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 80 to 83
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 22 to 24
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 83 to 87
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 24 to 28
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 87 to 89
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 28 to 32
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 3
+Three consecutive sixes, all canceled, now returning a final value of new roll, whatever it will be
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 89 to 94
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 32 to 33
+Due to rolled position advance to 33, Jasveer got bitten by snake at 33 and moved from 33 to 6
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 94 to 98
+Due to rolled position advance to 98, Gaurav got bitten by snake at 98 and moved from 98 to 64
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 6 to 8
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 64 to 69
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 8 to 9
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 69 to 71
+Due to rolled position advance to 71, Gaurav climbed the ladder at 71 and moved from 71 to 91
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 9 to 14
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 10, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 14 to 15
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 91 to 96
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 15 to 17
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 7, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 17 to 18
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 96 to 97
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 18 to 21
+--
+Gaurav rolled a 5, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 21 to 25
+--
+Gaurav rolled a 4, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 25 to 26
+--
+Gaurav rolled a 5, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 3
+Three consecutive sixes, all canceled, now returning a final value of new roll, whatever it will be
+Jasveer rolled a total of (including consecutive sixes) 6 and moved from 26 to 32
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 9, but it's outside board. Hence, ignoring the chance.
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 32 to 36
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 97 to 98
+Due to rolled position advance to 98, Gaurav got bitten by snake at 98 and moved from 98 to 64
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 36 to 38
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 64 to 68
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 38 to 40
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 68 to 72
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 8 and moved from 40 to 48
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 7 and moved from 72 to 79
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 48 to 50
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 10 and moved from 79 to 89
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 50 to 52
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 89 to 90
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 52 to 57
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 90 to 95
+Due to rolled position advance to 95, Gaurav got bitten by snake at 95 and moved from 95 to 75
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 57 to 62
+Due to rolled position advance to 62, Jasveer got bitten by snake at 62 and moved from 62 to 5
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 75 to 76
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 5 to 6
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 76 to 78
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 6 to 10
+Due to rolled position advance to 10, Jasveer climbed the ladder at 10 and moved from 10 to 32
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 78 to 80
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 9 and moved from 32 to 41
+Due to rolled position advance to 41, Jasveer got bitten by snake at 41 and moved from 41 to 20
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 80 to 84
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 20 to 25
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 84 to 87
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 25 to 26
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 87 to 88
+Due to rolled position advance to 88, Gaurav got bitten by snake at 88 and moved from 88 to 16
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 26 to 27
+Due to rolled position advance to 27, Jasveer climbed the ladder at 27 and moved from 27 to 46
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 16 to 17
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 46 to 47
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 17 to 20
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 47 to 49
+Due to rolled position advance to 49, Jasveer got bitten by snake at 49 and moved from 49 to 9
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 20 to 25
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 10 and moved from 9 to 19
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 25 to 28
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 19 to 20
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 28 to 29
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 20 to 23
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 29 to 30
+--
+Jasveer rolled a total of (including consecutive sixes) 2 and moved from 23 to 25
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 30 to 35
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 25 to 30
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 35 to 38
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 9 and moved from 30 to 39
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 2
+Gaurav rolled a total of (including consecutive sixes) 15 and moved from 38 to 53
+--
+Jasveer rolled a total of (including consecutive sixes) 4 and moved from 39 to 43
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 53 to 58
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 43 to 44
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 8 and moved from 58 to 66
+--
+Jasveer rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Jasveer rolled a total of (including consecutive sixes) 7 and moved from 44 to 51
+Due to rolled position advance to 51, Jasveer climbed the ladder at 51 and moved from 51 to 68
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 66 to 67
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 68 to 71
+Due to rolled position advance to 71, Jasveer climbed the ladder at 71 and moved from 71 to 91
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 67 to 71
+Due to rolled position advance to 71, Gaurav climbed the ladder at 71 and moved from 71 to 91
+--
+Jasveer rolled a total of (including consecutive sixes) 3 and moved from 91 to 94
+--
+Gaurav rolled a total of (including consecutive sixes) 5 and moved from 91 to 96
+--
+Jasveer rolled a total of (including consecutive sixes) 5 and moved from 94 to 99
+--
+Gaurav rolled a total of (including consecutive sixes) 2 and moved from 96 to 98
+Due to rolled position advance to 98, Gaurav got bitten by snake at 98 and moved from 98 to 64
+--
+Jasveer rolled a 2, but it's outside board. Hence, ignoring the chance.
+--
+Gaurav rolled a total of (including consecutive sixes) 1 and moved from 64 to 65
+Due to rolled position advance to 65, Gaurav climbed the ladder at 65 and moved from 65 to 84
+--
+Jasveer rolled a 4, but it's outside board. Hence, ignoring the chance.
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 84 to 88
+Due to rolled position advance to 88, Gaurav got bitten by snake at 88 and moved from 88 to 16
+--
+Jasveer rolled a 5, but it's outside board. Hence, ignoring the chance.
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 16 to 20
+--
+Jasveer rolled a 3, but it's outside board. Hence, ignoring the chance.
+--
+Gaurav rolled a 6! Extra turn provided. Consecutive Sixes: 1
+Gaurav rolled a total of (including consecutive sixes) 8 and moved from 20 to 28
+--
+Jasveer rolled a 5, but it's outside board. Hence, ignoring the chance.
+--
+Gaurav rolled a total of (including consecutive sixes) 4 and moved from 28 to 32
+--
+Jasveer rolled a 5, but it's outside board. Hence, ignoring the chance.
+--
+Gaurav rolled a total of (including consecutive sixes) 3 and moved from 32 to 35
+--
+Jasveer rolled a total of (including consecutive sixes) 1 and moved from 99 to 100
+--
+Jasveer wins the game
